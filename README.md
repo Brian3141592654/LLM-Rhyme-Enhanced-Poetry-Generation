@@ -47,19 +47,14 @@ A sophisticated fine-tuning pipeline that transforms Microsoft's Phi-2 model int
 
 ## 🚀 Quick Start
 
-### Installation
-```bash
-pip install torch transformers peft accelerate tqdm
-```
-
 ### Training
 ```bash
-python train_rhyme_poem.py
+python train_lora.py
 ```
 
 ### Testing
 ```bash
-python test_rhyme_poem.py
+python chat_poem.py
 ```
 
 ---
