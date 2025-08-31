@@ -52,7 +52,33 @@ A sophisticated fine-tuning pipeline that transforms Microsoft's Phi-2 model int
 pip install torch transformers peft accelerate tqdm
 ```
 
-### Installation
+### Training
 ```bash
-pip install torch transformers peft accelerate tqdm
+python train_rhyme_poem.py
 ```
+
+### Testing
+```bash
+python test_rhyme_poem.py
+```
+
+---
+
+## 💌 Example Poems
+
+###Instruction: write a love poem
+###Response:
+A fragile bloom, our love takes hold,
+A story whispered, brave and bold.
+
+###Instruction: write a love poem
+###Response:
+With every breath, a silent vow,
+Forever bound, then, here, and now.
+
+###Instruction: write a love poem
+###Response:
+Your presence calms my restless mind,
+A peace within your love I find.
+
+
