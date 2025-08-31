@@ -51,7 +51,7 @@ python chat_poem.py
 
 ---
 
-## 💌 Example Poems
+## 💌 Example training data
 
 ```
 ### Instruction: write a love poem
