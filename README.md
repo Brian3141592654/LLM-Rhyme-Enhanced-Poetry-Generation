@@ -50,3 +50,9 @@ A sophisticated fine-tuning pipeline that transforms Microsoft's Phi-2 model int
 ### Installation
 ```bash
 pip install torch transformers peft accelerate tqdm
+```
+
+### Installation
+```bash
+pip install torch transformers peft accelerate tqdm
+```
