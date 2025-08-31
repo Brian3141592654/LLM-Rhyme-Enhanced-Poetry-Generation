@@ -37,14 +37,6 @@ A sophisticated fine-tuning pipeline that transforms Microsoft's Phi-2 model int
 
 ---
 
-## 📊 Performance Metrics
-
-- Rhyme Quality Score (0–1)
-- Rhythm Consistency (0–1)
-- Overall Quality: 70% rhyme + 30% rhythm
-
----
-
 ## 🚀 Quick Start
 
 ### Training
