@@ -87,14 +87,14 @@ def calculate_rhyme_score(text):
         if i + 2 < len(last_words):
             if is_rhyme(last_words[i], last_words[i+2]):
                 rhyme_pairs += 0.8  # Slightly lower weight for alternating
-            total_possible_pairs += 0.8
+            total_possible_pairs += 1
     
     # Check every other pair
     for i in range(0, len(last_words) - 1):
         if i + 1 < len(last_words):
             if is_rhyme(last_words[i], last_words[i+1]):
                 rhyme_pairs += 0.6
-            total_possible_pairs += 0.6
+            total_possible_pairs += 1
     
     return rhyme_pairs / total_possible_pairs if total_possible_pairs > 0 else 0.0
 
